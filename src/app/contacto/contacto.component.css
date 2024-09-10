@@ -1,0 +1,106 @@
+/* Contenedor principal y estilos del formulario, como antes */
+.contenedor-login {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-login h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.labelIcon-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Estilo para los mensajes de error */
+.error {
+  margin-top: 5px;
+}
+
+.error p {
+  color: #e74c3c;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+/* Botón y su contenedor */
+.boton-container {
+  text-align: center;
+}
+
+.boton {
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #2980b9;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .contenedor-login {
+    padding: 20px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .boton {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}

@@ -1,0 +1,32 @@
+.not-found-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .icono-error {
+    font-size: 100px;
+    color: #e74c3c;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #7f8c8d;
+  }
+  
+  .enlace-home {
+    font-size: 18px;
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .enlace-home:hover {
+    color: #2980b9;
+    cursor: pointer;
+  }
